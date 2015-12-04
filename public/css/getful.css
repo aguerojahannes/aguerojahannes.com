@@ -1,0 +1,77 @@
+.getful {
+  background-color: rgb(121,189,143);
+}
+
+
+
+.anim {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left:0px; 
+    top:0px;
+    -webkit-animation: myfirst 1s linear 2s 1; /* Chrome, Safari, Opera */
+    animation: myfirst 1s linear 2s 1;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    0%   {left:200px; top:200px;}
+    100%  {left:0px; top:0px;height: 150px;width:150px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    0%   {left:200px; top:200px;}
+    100%  {left:0px; top:0px;height: 150px;width:150px;}
+}
+
+
+.mobile {
+    float: right;
+    margin: 0 0 20px 30px;
+    width: 300px;
+}
+
+.mockup {
+	width:100%;
+}
+
+
+
+.skew-neg {
+    -webkit-transform: skewY(-5deg);
+    -moz-transform: skewY(-5deg);
+    -ms-transform: skewY(-5deg);
+    -o-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height:100px;
+    background-color: #00ff00;
+}
+
+/* And the child another way */
+.skew-pos {
+    -webkit-transform: skewY(5deg);
+    -moz-transform: skewY(5deg);
+    -ms-transform: skewY(5deg);
+    -o-transform: skewY(5deg);
+    transform: skewY(5deg);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height:80px;
+    background-image: url("/assets/tree-texture.png");
+}
+
+.title {
+	background-color: #ff0060;
+	text-transform: uppercase;
+	font-weight: bolder;
+/*	width: 140px;
+*/	position: fixed;
+	right: 40px;
+	top: 10px;
+}

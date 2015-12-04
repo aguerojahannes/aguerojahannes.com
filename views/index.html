@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<title>PORTFOLIO | Ana Mar&iacute;a Ag&uuml;ero Jahannes</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+	<link href="/angular-material/angular-material.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="/css/site.css">
+</head>
+<body class="bg" ng-controller="HomeController as vm">
+
+		<div id="site" flex layout="column">
+<!-- 			<video autoplay loop poster="http://anaritasousa.com/wp-content/uploads/2015/02/1796410_10152299489933487_602805989_n.jpg" id="bgvid">
+			    <source src="/assets/big-buck-bunny_trailer.webm" type="video/webm">
+			    <source src="/assets/Wildlife_512kb.mp4" type="video/mp4">
+			</video> -->
+<!-- 			<div flex layout="row" class="banner">
+				<div id="title" flex>PORTFOLIO | Ana Mar&iacute;a Ag&uuml;ero Jahannes
+				</div>
+				<div id="menu" flex>
+					<a href="">About</a>
+					<a ui-sref="ArtofAscent">Art of Ascent</a>
+					<a ui-sref="Getful">Getful</a>
+					<a ui-sref="Forum">Peep Rally</a>
+					<a ui-sref="Om-n">OM-N</a>
+				</div>
+			</div> -->
+			<div id="main">
+			<ui-view></ui-view>
+			</div>
+
+		
+
+		</div>
+
+
+	<!-- <ui-view></ui-view> -->
+
+	<!-- CDNs -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-animate.min.js"></script>
+ 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-aria.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.11.4/angular-material.min.js"></script>
+	<!-- Ext Libs -->
+<!--	<script src="angular/angular.min.js"></script>
+	<script src="angular-ui-router/release/angular-ui-router.min.js"></script> -->
+	<!-- Frameworks -->
+<!--	<script src="/angular-material/angular-material.min.js"></script>
+	<script src="/angular-aria/angular-aria.min.js"></script>
+	<script src="/angular-animate/angular-animate.min.js"></script> -->
+	<!-- Global Src -->
+	<script src="/javascript/app.js"></script>
+	<!-- Factories -->
+	<script src="/javascript/services/HomeFactory.js"></script>
+	<!-- Controllers -->
+	<script src="/javascript/controllers/HomeController.js"></script>
+</body>
+</html>
