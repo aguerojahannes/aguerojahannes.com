@@ -1,0 +1,77 @@
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  padding: 240px 0;
+  background-position: 0 0;
+}
+section.module.parallax h1 {
+  color: #1e1e1e;
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px white;
+}
+section.module.parallax-1 {
+  background-image: url("../assets/artofascent/nodes.jpg");
+}
+section.module.parallax-2 {
+  background-image: url("../assets/getful/bg-flipped.jpg");
+}
+section.module.parallax-3 {
+  /*background-image: url("../assets/demo/hand3.jpg");*/
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-90deg, red, #ed460c); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-90deg, red, #ed460c); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-90deg, red, #ed460c); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, red, #ed460c); /* Standard syntax */
+}
+section.module.parallax-4 {
+  background-image: url("../assets/foodforum/food2.jpg");
+}
+section.module.parallax-5 {
+  background-image: url("../assets/risingroot/seamless-linen.jpg");
+  /*background-color: #E86556;*/
+
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax {
+    padding: 300px 0;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+}

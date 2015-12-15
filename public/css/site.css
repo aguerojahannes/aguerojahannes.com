@@ -25,6 +25,10 @@ p {
   font-size: 70%;
   text-align: justify;
 }
+li {
+  font-size: 80%;
+}
+
 .banner {
   text-align: center;
 }
@@ -229,8 +233,8 @@ md-sidenav {
     -ms-flex-direction: column;
     flex-direction: column;
     z-index: 60;
-    width: 700px;
-    min-width: 700px;
+    width: 60%;
+    min-width: 60%;
     max-width: 500px;
     bottom: 0;
     overflow: auto;
@@ -356,9 +360,21 @@ md-content {
     width: 40%;
 }
 
+.prototype {
+    float: right;
+    margin: 0 0 20px 30px;
+}
+
+.links {
+  text-align: center;
+}
 .see {
   background-color: black;
   color: white;
+}
+
+.smallLink {
+  font-size: 50%;
 }
 
 
