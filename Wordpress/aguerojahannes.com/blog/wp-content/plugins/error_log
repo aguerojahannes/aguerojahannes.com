@@ -1,0 +1,5 @@
+[22-Aug-2015 03:32:42 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/hamajeco/public_html/aguerojahannes.com/wp-content/plugins/hello.php on line 60
+[10-Sep-2015 19:52:17 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/hamajeco/public_html/aguerojahannes.com/wp-content/plugins/hello.php on line 60
+[13-Sep-2015 06:53:33 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/hamajeco/public_html/aguerojahannes.com/wp-content/plugins/hello.php on line 60
+[18-Oct-2015 21:51:08 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/hamajeco/public_html/aguerojahannes.com/wp-content/plugins/hello.php on line 60
+[21-Oct-2015 00:35:39 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/hamajeco/public_html/aguerojahannes.com/wp-content/plugins/hello.php on line 60

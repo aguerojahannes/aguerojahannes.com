@@ -1,0 +1,22 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+ ErrorDocument 401 default
+ <Files wp-login.php>
+ AuthType basic
+ AuthName "WordPress attack protection CAPTCHA. Enter username: JnKTJvTW Password: The result of math 18+4"
+ AuthBasicProvider file
+ AuthUserFile /home/hamajeco/wp-admin-attack-htpasswd-file-JnKTJvTW
+ Require valid-user
+ </Files>
+

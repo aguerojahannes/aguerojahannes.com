@@ -1,0 +1,1 @@
+[11-Oct-2015 08:53:32 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/hamajeco/public_html/aguerojahannes.com/wp-content/themes/twentyfourteen/404.php on line 10

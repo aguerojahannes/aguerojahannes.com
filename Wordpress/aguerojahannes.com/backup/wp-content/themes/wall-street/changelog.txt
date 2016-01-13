@@ -1,0 +1,39 @@
+== Changelog ==
+
+= Version 1.1.6 (June 12, 2014) =
+	* Team posts count increased
+
+= Version 1.1.5 (May 26, 2014) =
+	* Touchscreen scroll bug fix
+
+= Version 1.1.4 (April 6, 2014) =
+	* Mobile scroll bug fix
+	* Social icon support added
+
+= Version 1.1.3 (Mar. 14, 2014) =
+	* IE8 bug fix
+
+= Version 1.1.2 (Feb. 27, 2014) =
+	* Favicon support added
+
+= Version 1.1.1 (Feb. 12, 2014) =
+	* Gallery not displaying issue fix
+	* Scrollbar added to gallery navigation thumbnails
+
+= Version 1.1 (Feb. 9, 2014) =
+	* Slideshow break in no caption bug fix
+	* Slideshow not loading issue fix
+	* Menu position issue fix
+	* Fullscreen slideshow position fix
+
+= Version 1.0.3 (Feb. 6, 2014) =
+	* Added sortable homepage support
+
+= Version 1.0.2 (Feb. 5, 2014) =
+	* Translation files updated
+
+= Version 1.0.1 (Jan 14, 2014) =
+	* Social icons support for navigation menu
+
+= Version 1.0 (Dec 28, 2013) =
+	* Initial release
