@@ -29,13 +29,6 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-body {
-  line-height: 1;
-}
-
-ol, ul {
-  list-style: none;
-}
 
 blockquote, q {
   quotes: none;
@@ -75,30 +68,38 @@ table {
 body {
   background-color: #1e1e1e;
   color: #505050;
-  font-family: "Century Gothic", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Century Gothic", sans-serif;
   font-size: 14px;
-  line-height: 1.5;
+  /*line-height: 1.5;*/
 }
 
 h1 {
-  font-size: 95%;
+  font-size: 195%;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 h2 {
-  font-size: 85%;
+  font-size: 185%;
 }
 
 h3 {
-  font-size: 75%;
+  font-size: 175%;
 }
 p {
-  font-size: 70%;
+  font-size: 100%;
   text-align: justify;
+  margin-bottom: 20px;
 }
+ol, ul {
+  list-style: square;
+  margin-left: 35px;
+}
+
 li {
-  font-size: 80%;
-}
+    margin-bottom: 10px ;
+  }
+
 /* ============================================================
   PRIMARY STRUCTURE
 ============================================================ */
@@ -320,6 +321,10 @@ footer .copyright a {
     text-align: right;
   }
 }
+
+/* ============================================================
+  BUTTONS
+============================================================ */
 
 
 /* ============================================================

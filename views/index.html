@@ -7,10 +7,12 @@
 	<link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.11.4/angular-material.min.css">
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
 	  <link rel="stylesheet" href="css/base.css">
-	  <link rel="stylesheet" href="css/style.css">
+	  <link rel="stylesheet" href="css/section.css">
+	  <link rel="stylesheet" href="css/parallax.css">
 	   <script src="javascript/style/modernizr.js"></script>
 	<!-- <link href="/angular-material/angular-material.min.css" rel="stylesheet"> -->
-	<!-- <link rel="stylesheet" type="text/css" href="/css/site.css"> -->
+	<link rel="stylesheet" type="text/css" href="/css/site.css">
+
 </head>
 <body class="bg" ng-controller="HomeController as vm">
 
@@ -18,15 +20,89 @@
 
   <div class="info-bar">
     <div class="container">
-      <a class="icon cmn-tut" data-title="Back To Tutorial" href="http://www.callmenick.com/?p=722"></a>
+    <h1>Ana María Agüero Jahannes</h1>
+
+<!--       <a class="icon cmn-tut" data-title="Back To Tutorial" href="http://www.callmenick.com/?p=722"></a>
       <a class="icon cmn-prev" data-title="Pevious Demo - Simple Parallax Scrolling Effect" href="http://callmenick.com/tutorial-demos/simple-parallax-effect/"></a>
-      <!-- <a class="icon cmn-next" data-title="Next Demo - " href="http://www.callmenick.com/tutorial-demos/..."></a> -->
+      <a class="icon cmn-next" data-title="Next Demo - " href="http://www.callmenick.com/tutorial-demos/..."></a>
       <a class="icon cmn-download" data-title="Download Source" href="http://www.callmenick.com/tutorial-demos/advanced-parallax-effect/advanced-parallax-effect-source.zip"></a>
-      <a class="icon cmn-archive" data-title="Tutorial Archives" href="http://www.callmenick.com/category/tutorials/"></a>
+      <a class="icon cmn-archive" data-title="Tutorial Archives" href="http://www.callmenick.com/category/tutorials/"></a> -->
     </div>
   </div>
 
   <main>
+
+      <section class="module parallax parallax-3">
+        <div class="container">
+          <!-- <h1>Colour</h1> -->
+          <img src="/assets/om-n/om-n-iphone.png" style="height:700px; padding-left:300px">
+        </div>
+      </section>
+
+      <section id="om-n" class="module content">
+        <div class="container">
+		<div layout="row" flex class="section-head">
+		        		<h1>OM-N</h1>
+				<span>Concept, UX Design, UI Development</span>
+
+<!-- 			<div flex>
+				<md-button class="see">See Code on Github</md-button>
+			</div> -->
+		</div>
+
+		<div layout layout-align="center">
+			<div layout="column">
+				<div>
+					<div class="prototype">
+						<h2>Interactive Prototype</h2>
+<!-- 						<span>Experience the flow through the major UI. Anything with a light blue box is clickable. Enjoy.</span> -->
+						<iframe width="424" height="916" src="//invis.io/7G577XSE6" frameborder="0" allowfullscreen></iframe><br/>
+						<md-button class="see">See Code on Github</md-button>
+					</div>
+
+
+					<h2>Company Description</h2>
+					<p>OM-N is a gallery and marketplace showcasing the various intersections of world culture and nature. They make it easy to support culturally specific creations without the risk of appropriation.</p>
+
+
+					<h2>Project Description</h2>
+					<p>OM-N is an online mobile marketplace of curated fashion, art and home goods with an emphasis on world cultures and nature.</p>
+					<p>Users learn about the cultural specfic craftmanship, intended purpose and uses forUsers can see what cultural groups the merchandise is intended for and answer artist-generated questions about the .</p>
+
+
+					<h2>Project Goals</h2>
+					<ul>
+					<li>Find out users' preferred way of targeting customers and being targeted when dealing with hot topic of cultural appropropriation.</li>
+					<li>Complete wireframes, visual design and prototyping within 1 week.</li>
+					</ul>
+
+
+					<h2>Users</h2>
+					<p>Young adults (20-35 years old) who identify as people of color (of indigenous, African, Latin and/or Asian decent) who want to respectfully buy and sell culturally specific creations.</p>
+
+					<h2>Deliverables</h2>
+					<p>
+					Concept & Ideation<br/>
+					User Research (1:1 interviews)<br/>
+					Information Architecture & Navigation<br/>
+					Wireframes<br/>
+					Visual Design<br/>
+					Usability Testing<br/>
+					Prototyping
+					</p>
+
+					<h2>Project Timeline</h2>
+					<p>1 week</p>
+
+					<h2>Tools</h2>
+					<p>Illustrator, Photoshop, Flinto</p>
+				</div>
+
+			</div>
+			</div>
+		</div>
+      </section>
+
 
       <section class="module parallax parallax-1">
         <div class="container">
@@ -35,7 +111,7 @@
         </div>
       </section>
 
-      <section class="module content">
+      <section id="artofascent" class="module content">
             <div class="container">
 	            <div flex>
 	                <h1>Art of Ascent</h1>
@@ -49,15 +125,6 @@
 
 	      <div layout layout-align="center">
 	      <div layout="column">
-	      <!--  <div class="banner">
-	          <h1>Art of Ascent</h1>
-	          <p class="banner">Concept, UX/UI Design, Full Stack Development</p>
-	          <md-button class="see">See App</md-button>
-	          <hr/>
-	        </div> -->
-	        <div>
-	          <img src="/assets/artofascent/artofascent-modals.gif" style="width:100%">
-	        </div>
 	        <div>
 	          <h2>Project Description</h2>
 	          <p>Art of Ascent is a web app that I conceived of, designed and developed to give artists a business plan guide so they can focus on their creativity while growing a business.</p>
@@ -94,8 +161,8 @@
 	          <p>Google Forms, Photoshop, Angular JS, Node Js, Express, Mongo DB, Mongolab, Heroku</p>
 	        </div>
 	        <div>
-	          <!-- <img src="/assets/artofascent/brainstorm.png"> -->
 	          <h2>Views</h2>
+	          <img src="/assets/artofascent/artofascent-modals.gif" style="width:100%">
 	          <img src="/assets/artofascent/artofascent-app.png" style="width:100%">
 	          <img src="/assets/artofascent/rc.png">
 	        </div>
@@ -127,13 +194,17 @@
 		        </div>
 
 
-<!-- DO SOMETHING WITH THIS -->
-			<!-- <link rel="stylesheet" type="text/css" href="/css/getful.css"> -->
-
-
 			<div layout layout-align="center">
 			<div layout="column">
 				<div>
+
+					<div class="prototype">
+						<h2>Interactive Prototype</h2>
+<!-- 						<span>Experience the flow through the major UI. Anything with a light blue box is clickable. Enjoy.</span> -->
+						<iframe width="424" height="916" src="//invis.io/CF5K1SZ4Y" frameborder="0" allowfullscreen></iframe>
+						<!-- <md-button class="see">See Code on Github</md-button> -->
+					</div>
+
 					 <!-- class="anim" -->
 					<h2>Project Description</h2>
 					<p>Getful is a bilingual, online mobile app that enables its users to create circles of resourced contacts before they need them, thereby alleviating the stress of the need. Users interact to request and suggest resources.
@@ -141,7 +212,8 @@
 					<p>Users can create circles pertaining to big life areas (ie. Career, Health, Personal, Create Your Own) and add new or existing contacts to those circles. If they find themselves in need of a contact they don't already have, they can make a request for suggestions to other users globally or in specific circles.</p>
 					<p>Users are notified if they are added as a resource in someone's circle or if someone has commented on their request/suggestion.</p>
 
-					<img src="/assets/getful/getful-language.png" class="mobile">
+					<!-- <iframe width="424" height="916" src="//invis.io/CF5K1SZ4Y" frameborder="0" allowfullscreen></iframe> -->
+					<!-- <img src="/assets/getful/getful-language.png" class="mobile"> -->
 					<h2>Users</h2>
 					<p>Young adults (Spanish & English speakers) in the U.S. seeking to ease worry of not having enough of or the right connections.
 
@@ -187,6 +259,9 @@
 						<img src="/assets/getful/getful-circle.png" width="50%"  height="50%">
 					</div>
 				</div>
+				<div>
+					<md-button class="see">See Code on Github</md-button>
+				</div>
 
 
 			</div>
@@ -195,45 +270,48 @@
         </div>
       </section>
 
-      <section class="module parallax parallax-3">
+
+
+
+
+			<section class="module parallax parallax-5">
         <div class="container">
           <!-- <h1>Colour</h1> -->
-          <img src="/assets/om-n/om-n-iphone.png" style="height:700px; padding-left:300px">
+          <img src="/assets/hamaje/hamaje-ll-long.png" style="width:100%">
         </div>
       </section>
 
       <section class="module content">
         <div class="container">
-			      	<div flex>
-		        		<h1 >OM-N</h1>
-				<p>Concept, UX/UI Design</p>
+		      	<div flex>
+		        		<h1 >Hamaje</h1>
+				<p>UI Design, Front End Development</p>
 		        </div>
 		        <div>
-				<md-button class="see">See App</md-button>
+				<!-- <md-button class="see">See App</md-button> -->
 		        </div>
 
 			<div layout layout-align="center">
 			<div layout="column">
 				<div>
 					<h2>Company Description</h2>
-					<p>OM-N is a gallery and marketplace showcasing the various intersections of world culture and nature. They make it easy to support culturally specific creations without the risk of appropriation.</p>
-
-					<iframe width="424" height="916" src="//invis.io/7G577XSE6" frameborder="0" allowfullscreen class="prototype"></iframe>
-					<h2>Project Description</h2>
+					<p>Hamaje is a photographer portfolio site.
+					<!-- <iframe width="424" height="916" src="//invis.io/7G577XSE6" frameborder="0" allowfullscreen class="prototype"></iframe> -->
+					<!-- <h2>Project Description</h2>
 					<p>OM-N is an online mobile marketplace of curated fashion, art and home goods with an emphasis on world cultures and nature.</p>
-					<p>Users learn about the cultural specfic craftmanship, intended purpose and uses forUsers can see what cultural groups the merchandise is intended for and answer artist-generated questions about the .</p>
+					<p>Users learn about the cultural specfic craftmanship, intended purpose and uses forUsers can see what cultural groups the merchandise is intended for and answer artist-generated questions about the .</p> -->
 
 
 					<h2>Project Goals</h2>
 					<p>
 					<ul>
-					<li>Find out users' preferred way of targeting customers and being targeted when dealing with hot topic of cultural appropropriation.</li>
-					<li>Complete wireframes, visual design and prototyping within 1 week.</li>
+					<li>Display a collection of photographs, grouped by theme, in a user friendly, but unique way.</li>
+					<li>Develop brand assets. </li>
 					</ul>
 					</p>
 
 					<h2>Users</h2>
-					<p>Young adults (20-35 years old) who identify as people of color (of indigenous, African, Latin and/or Asian decent) who want to respectfully buy and sell culturally specific creations.</p>
+					<p>Photographer wants potential clients, curators and funder to be able to access the same site.</p>
 
 					<h2>Deliverables</h2>
 					<p>
@@ -243,104 +321,22 @@
 					Wireframes<br/>
 					Visual Design<br/>
 					Usability Testing<br/>
-					Prototyping
-					</p>
-
-					<h2>Project Timeline</h2>
-					<p>1 week</p>
-
-					<h2>Tools</h2>
-					<p>Illustrator, Photoshop, Flinto</p>
-				</div>
-
-			</div>
-			</div>
-		</div>
-      </section>
-
-      <section class="module parallax parallax-4">
-        <div class="container">
-          <!-- <h1>Colour</h1> -->
-          <img src="/assets/foodforum/foodforum-tablet.png" style="width:100%">
-        </div>
-      </section>
-
-      <section class="module content">
-        <div class="container">
-			      	<div flex>
-		        		<h1>Food Forum</h1>
-				<p>Concept, UX/UI Design, Full Stack Development</p>
-		        </div>
-		        <div class="links">
-				<md-button href="http://foodforum.herokuapp.com" class="see">See App</md-button><br/>
-				<a href="https://github.com/danpotty/The-Food-Forum" target="_blank" class="smallLink">View Code</a>
-		        </div>
-
-			<div layout layout-align="center">
-			<div layout="column">
-<!-- 				<div class="banner">
-					<h1>Food Forum</h1>
-					<p class="banner">UI Design, Full Stack Development</p>
-					<md-button href="https://github.com/danpotty/The-Food-Forum" target="_blank" class="see">See Code</md-button>
-				</div>	 -->
-				<div>
-					<img src="/assets/foodforum/foodforum-home2.png" style="width:100%">
-				</div>
-				<div>
-					<h2>Project Description</h2>
-					<p>Peep Rally is a bilingual, online mobile app that enables its users to create circles of resourced contacts before they need them, thereby alleviating the stress of the need. Users interact to request and suggest resources.
-					</p>
-					<p>Users can create circles pertaining to big life areas (ie. Career, Health, Personal, Create Your Own) and add new or existing contacts to those circles. If they find themselves in need of a contact they don't already have, they can make a request for suggestions to other users globally or in specific circles.</p>
-					<p>Users are notified if they are added as a resource in someone's circle or if someone has commented on their request/suggestion.</p>
-
-					<h2>Users</h2>
-					<p>Young adults (Spanish & English speakers) in the U.S. seeking to ease worry of not having enough of or the right connections.</p>
-
-					<h2>Project Goals</h2>
-					<p>Complete the entire mobile app from inception to production to launch in just 2 weeks.</p>
-
-					<h2>Team</h2>
-					<p>August Geiseman, Dan Pottorff and me.</p>
-					<p>Each team member worked across the board on design, front end and back end compenents.</p>
-
-					<h2>Deliverables</h2>
-					<p>
-					Concept & Ideation <b>Lead Visionary</b><br/>
-					User Research: Focus group<br/>
-					Information Architecture & Navigation<br/>
-					Wireframes<br/>
-					Visual Design<br/>
-					Iteractive Prototype <b>Lead Designer</b><br/>
-					Mobile Framework <b>Lead Developer</b><br/>
-					HTML & CSS Views<br/>
-					Javascript Functionality<br/>
-					Server & Database<br/>
-					User Authenication <b>Lead Developer</b><br/>
-					Social Media Integration<br/>
-					Usability Testing<br/>
-					Deployment
+					Front End Development
 					</p>
 
 					<h2>Project Timeline</h2>
 					<p>2 weeks</p>
 
 					<h2>Tools</h2>
-					<p>Photoshop, Illustrator, Flinto, Ionic, Cordova, Sass, Angular JS, Node Js, Express, Mongo DB, Mongolab</p>
-				</div>
-				<div  flex>
-					<div flex>
-					<img src="/assets/foodforum/foodforum-profile.png">
-					</div>
-					<div flex>
-					<img src="/assets/foodforum/foodforum-register.png">
-					</div>
+					<p>Illustrator, Photoshop</p>
 				</div>
 
 			</div>
 			</div>
-
         </div>
       </section>
+
+
 
       <section class="module parallax parallax-5">
         <div class="container">
@@ -409,37 +405,7 @@
 
   <footer>
     <div class="container">
-      <div class="asides clearfix">
-        <aside>
-          <nav>
-            <ul>
-              <li><a href="http://www.callmenick.com/">Welcome</a></li>
-              <li><a href="http://www.callmenick.com/category/tutorials">Tutorials</a></li>
-              <li><a href="http://www.callmenick.com/category/snippets">Snippets</a></li>
-              <li><a href="http://www.callmenick.com/category/articles">Articles</a></li>
-              <li><a href="http://www.callmenick.com/category/resources">Resources</a></li>
-            </ul>
-          </nav>
-        </aside>
-        <aside>
-          <nav>
-            <ul>
-              <li><a href="http://www.callmenick.com/archive/">Archive</a></li>
-              <li><a href="http://www.callmenick.com/about">About</a></li>
-              <li><a href="http://www.callmenick.com/contact">Contact</a></li>
-              <li><a href="http://www.callmenick.com/subscribe">Subscribe</a></li>
-            </ul>
-          </nav>
-        </aside>
-        <aside class="logo">
-          <a href="http://www.callmenick.com/"><img alt="Tutorials, Snippets, Resources, and Articles for Web Design and Web Development" onerror="this.src=logo-alt.png" src="img/core/logo-alt.svg"></a>
-        </aside>
-      </div>
-      <div class="copyright">
-        <small>
-          &copy; 2014, Nick Salloum<br><a href="http://callmenick.com">callmenick.com</a>
-        </small>
-      </div>
+
     </div>
   </footer><!-- /footer -->
 
@@ -468,3 +434,89 @@
 	<script src="/javascript/controllers/HomeController.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+<!--
+      <section class="module parallax parallax-4">
+        <div class="container">
+          <img src="/assets/foodforum/foodforum-tablet.png" style="width:100%">
+        </div>
+      </section>
+
+     <section class="module content">
+        <div class="container">
+			      	<div flex>
+		        		<h1>Food Forum</h1>
+				<p>Concept, UX/UI Design, Full Stack Development</p>
+		        </div>
+		        <div class="links">
+				<md-button href="http://foodforum.herokuapp.com" class="see">See App</md-button><br/>
+				<a href="https://github.com/danpotty/The-Food-Forum" target="_blank" class="smallLink">View Code</a>
+		        </div>
+
+			<div layout layout-align="center">
+			<div layout="column">
+				<div>
+					<img src="/assets/foodforum/foodforum-home2.png" style="width:100%">
+				</div>
+				<div>
+					<h2>Project Description</h2>
+					<p>Peep Rally is a bilingual, online mobile app that enables its users to create circles of resourced contacts before they need them, thereby alleviating the stress of the need. Users interact to request and suggest resources.
+					</p>
+					<p>Users can create circles pertaining to big life areas (ie. Career, Health, Personal, Create Your Own) and add new or existing contacts to those circles. If they find themselves in need of a contact they don't already have, they can make a request for suggestions to other users globally or in specific circles.</p>
+					<p>Users are notified if they are added as a resource in someone's circle or if someone has commented on their request/suggestion.</p>
+
+					<h2>Users</h2>
+					<p>Young adults (Spanish & English speakers) in the U.S. seeking to ease worry of not having enough of or the right connections.</p>
+
+					<h2>Project Goals</h2>
+					<p>Complete the entire mobile app from inception to production to launch in just 2 weeks.</p>
+
+					<h2>Team</h2>
+					<p>August Geiseman, Dan Pottorff and me.</p>
+					<p>Each team member worked across the board on design, front end and back end compenents.</p>
+
+					<h2>Deliverables</h2>
+					<p>
+					Concept & Ideation <b>Lead Visionary</b><br/>
+					User Research: Focus group<br/>
+					Information Architecture & Navigation<br/>
+					Wireframes<br/>
+					Visual Design<br/>
+					Iteractive Prototype <b>Lead Designer</b><br/>
+					Mobile Framework <b>Lead Developer</b><br/>
+					HTML & CSS Views<br/>
+					Javascript Functionality<br/>
+					Server & Database<br/>
+					User Authenication <b>Lead Developer</b><br/>
+					Social Media Integration<br/>
+					Usability Testing<br/>
+					Deployment
+					</p>
+
+					<h2>Project Timeline</h2>
+					<p>2 weeks</p>
+
+					<h2>Tools</h2>
+					<p>Photoshop, Illustrator, Flinto, Ionic, Cordova, Sass, Angular JS, Node Js, Express, Mongo DB, Mongolab</p>
+				</div>
+				<div  flex>
+					<div flex>
+					<img src="/assets/foodforum/foodforum-profile.png">
+					</div>
+					<div flex>
+					<img src="/assets/foodforum/foodforum-register.png">
+					</div>
+				</div>
+
+			</div>
+			</div>
+
+        </div>
+      </section> -->
